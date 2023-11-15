@@ -29,9 +29,8 @@ with open(input_file_path, 'r', encoding='utf-8') as input_file:
             transformed_data.append(dict(zip(column_names, [item[0] for item in current_country_data])))
             current_country_data = []
 
-# Write the transformed data to the output file
+# Write the transformed data to the output file with each column data enclosed in double quotes
 with open(output_file_path, 'w', encoding='utf-8', newline='') as output_file:
-    csv_writer = csv.DictWriter(output_file, fieldnames=column_names)
+    csv_writer = csv.DictWriter(output_file, fieldnames=column_names, quoting=csv.QUOTE_ALL)
     csv_writer.writeheader()
     csv_writer.writerows(transformed_data)
-    

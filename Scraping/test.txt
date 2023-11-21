@@ -1,0 +1,200 @@
+Country,Warning Level,Recommendation,Threatened Area,Detail
+Uganda,02,Enhanced cautionary measures,Entire country,"In light of recent terrorist events in Uganda and concerns about the existence of various terrorist infrastructures in the country and their activity, there is a persistent potential threat to the safety of Israelis/Jews residing in the country."
+Uzbekistan,01/04,"Most of the country: No travel warning (Level 1) and recommended to take regular cautionary measures. Region along the common border between Uzbekistan and Afghanistan: High threat level (Level 4), recommends avoiding travel within 30 kilometers of the border.",Border area between Uzbekistan and Afghanistan,"It is recommended to maintain a distance of 30 kilometers from the border between Uzbekistan and Afghanistan due to a concern that terrorist elements in Afghanistan will carry out attacks in this area."
+Austria,01,Regular cautionary measures,No,No information
+Australia,01,Regular cautionary measures,No,No information
+Ukraine,01,Regular cautionary measures,No,"While there is no travel warning for this country in the context of terrorism, due to the ongoing conflict, those planning to visit the country should review the Ministry of Foreign Affairs' recommendations regarding visiting Ukraine."
+Uruguay,01,Regular cautionary measures,No,No information
+Azerbaijan,02,Enhanced cautionary measures,Entire country,"Due to concerns about the existence of various terrorist infrastructures in Azerbaijan, there is a persistent potential threat to the safety of Israelis/Jews residing in the country."
+United Arab Emirates,03,Avoid non-essential travel,Entire country,"There is terrorist activity in the UAE, posing a real risk to Israelis residing/visiting the country."
+Italy,01,Regular cautionary measures,No,"While there is no travel warning for this country in the context of terrorism, due to the wildfires in the country, the Ministry of Foreign Affairs has published recommendations for Israelis planning to visit Italy. Here is a link to the recommendation: https://www.gov.il/he/departments/publications/reports/italy260723"
+Bahamas,01,Regular cautionary measures,No,No information
+Marshall Islands,01,Regular cautionary measures,No,No information
+Seychelles,01,Regular cautionary measures,No,No information
+Solomon Islands,01,Regular cautionary measures,No,No information
+Indonesia,03/04,"High threat level (Level 4) recommends avoiding travel: Western Papua, Sulawesi Islands, Sumatra, Aceh Province, and parts of Java. Moderate threat level (Level 3) recommends avoiding non-essential travel: the rest of Indonesia.",Entire country,"Due to terrorist activities by Muslim extremist groups in various focal points in Indonesia, targeting government and civilian objectives, there is a tangible risk to the lives of Israelis residing/visiting the country."
+Iceland,01,Regular cautionary measures,No,No information
+Iran,04,Travel prohibition,Entire country,"Given the deep animosity towards Israel by the Iranian regime and potential terrorist threats, there is a real risk to the security of Israelis visiting/staying in this country. Moreover, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."
+Ireland,01,Regular cautionary measures,No,No information
+El Salvador,01,Regular cautionary measures,No,No information
+Albania,01,Regular cautionary measures,No,No information
+Algeria,04,Avoid travel,Entire country,"In the country, there is activity by terrorist organizations, such as JNIM and ""Islamic State"" (ISIS), holding infrastructures in the country. Simultaneously, there is deep hostility towards Israel in Algerian society. In light of this, there is a risk to the security of Israelis visiting Algeria."
+Angola,01,Regular cautionary measures,No,No information
+Andorra,01,Regular cautionary measures,No,No information
+Antigua and Barbuda,01,Regular cautionary measures,No,No information
+Estonia,01,Regular cautionary measures,No,No information
+Afghanistan,04,Avoid travel,Entire country,"Due to the persistent threat from terrorist organizations, including the Taliban, Al-Qaeda, and the Islamic State (ISIS), causing dozens of casualties each month in the population and local security forces, there is a real risk to the security of Israelis visiting/staying in this country."
+Ecuador,01,Regular cautionary measures,No,No information
+Argentina,01,Regular cautionary measures,No,No information
+Eritrea,01,Regular cautionary measures,No,No information
+Armenia,01,Regular cautionary measures,No,No information
+United States,01,Regular cautionary measures,No,No information
+Ethiopia,01/02,Potential threat (Level 2): Recommended to take increased cautionary measures: South and east of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,South and east of the country (See map),"Due to the presence of terrorist infrastructure of the Somali organization Al-Shabaab in the country and their activity, there is a persistent potential threat to Israelis/Jews residing in the Somali region in Ethiopia and the border area with Djibouti. Note: Ethiopia has also issued a travel warning from its Ministry of Foreign Affairs."
+Bhutan,01,Regular cautionary measures,No,No information
+Bulgaria,01,Regular cautionary measures,No,No information
+Bolivia,01,Regular cautionary measures,No,"While there is no travel warning for this country in the context of terrorism, due to the security situation in the country following the ""Iron Swords"" war, the Ministry of Foreign Affairs has published recommendations for Israelis planning to visit the country."
+Bosnia and Herzegovina,01,Regular cautionary measures,No,No information
+Botswana,01,Regular cautionary measures,No,No information
+Burundi,01,Regular cautionary measures,No,No information
+Burkina Faso,04,Avoid any visit to the country,Entire country,"In recent years, there has been an escalation in terrorist activity in the country by global Jihad elements. In this context, terrorist attacks, including attacks on tourist targets in the capital, have been carried out, including an attack on the French embassy building. Due to this, there is a risk to the lives of Israelis visiting this country."
+Bahrain,03,Avoid non-essential travel,Entire country,"Due to the presence of terrorist infrastructure in the country, there is a tangible risk to the security of Israelis visiting/staying in Bahrain."
+Belarus,01,Regular cautionary measures,No,No information
+Belgium,01,Regular cautionary measures,No,No information
+Belize,01,Regular cautionary measures,No,No information
+Bangladesh,03,Avoid non-essential travel,Entire country,"In Bangladesh, there is the presence and activity of supporters and members of global Jihad organizations; this activity poses a risk to Israelis visiting the country. Therefore, we recommend avoiding travel to the country."
+Benin,01,Regular cautionary measures,No,No information
+Barbados,01,Regular cautionary measures,No,No information
+Brunei,01,Regular cautionary measures,No,No information
+Brazil,01,Regular cautionary measures,No,No information
+Britain,01,Regular cautionary measures,No,No information
+Gabon,01,Regular cautionary measures,No,No information
+Georgia,02/01,Potential threat (Level 2): Recommended to take increased cautionary measures: Pankisi Gorge in the east of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,Pankisi Gorge,"Due to concerns about terrorist activity by terrorist elements in the Pankisi Gorge region (eastern Georgia), there is a risk to the security of Israeli tourists visiting the area."
+Ghana,01,Regular cautionary measures,No,No information
+Guatemala,01,Regular cautionary measures,No,No information
+Guyana,01,Regular cautionary measures,No,No information
+Djibouti,02/04,High threat level (Level 4): Recommended to avoid travel: About 30 km from the border of Djibouti with Somalia in the south and about 30 km from the border of Djibouti with Eritrea in the north. Potential threat (Level 2): Recommended to take increased cautionary measures: Rest of the country.,Entire country,"Due to the fear of terrorist activity by the Somali organization Al-Shabaab, it is advisable to take increased cautionary measures while staying in Djibouti. Additionally, it is recommended to avoid traveling to at least 30 km from the border of Djibouti with Somalia in the south and from the border area of Djibouti with Eritrea in the north."
+Guinea,01,Regular cautionary measures,No,No information
+Equatorial Guinea,01,Regular cautionary measures,No,No information
+Guinea-Bissau,01,Regular cautionary measures,No,No information
+Jamaica,01,Regular cautionary measures,No,No information
+Gambia,01,Regular cautionary measures,No,No information
+Guinea-Conakry,01,Regular cautionary measures,No,No information
+Germany,01,Regular cautionary measures,No,No information
+Grenada,01,Regular cautionary measures,No,No information
+Dominica,01,Regular cautionary measures,No,No information
+Denmark,01,Regular cautionary measures,No,No information
+South Africa,01,Regular cautionary measures,No,No information
+South Sudan,01,Regular cautionary measures,No,No information
+Haiti,01,Regular cautionary measures,No,No information
+Maldives,01,Regular cautionary measures,No,"While the country is not subject to a travel warning regarding terrorism, given the hostile atmosphere and attitude towards Israelis, the Ministry of Foreign Affairs recommends avoiding non-essential travel at this time. Here is a link to the recommendation: https://www.gov.il/he/departments/publications/reports/maldives181023"
+India,01/04,High threat level (Level 4): Avoid travel to a specific area - Kashmir, excluding Ladakh. No travel warning (Level 1) recommends taking regular cautionary measures: Rest of India.,Northern part of the country (Kashmir),"In the Kashmir region in northern India (excluding Ladakh), the threat of terrorism is substantial and concrete, particularly due to violent internal events and sporadic exchange of gunfire between Indian army forces along the border and Pakistani forces."
+Netherlands,01,Regular cautionary measures,No,No information
+Hong Kong,01,Regular cautionary measures,No,No information
+Hungary,01,Regular cautionary measures,No,No information
+Honduras,01,Regular cautionary measures,No,No information
+Dominican Republic,01,Regular cautionary measures,No,No information
+Central African Republic,04,Avoid any visit/stay in the country,Entire country,"Due to extensive terrorist activity and a precarious security situation in all regions of the Central African Republic, there is a real risk to Israelis visiting/staying in the country. We recommend avoiding travel to the country's territories."
+Republic of the Congo,01,Regular cautionary measures,No,No information
+Vietnam,01,Regular cautionary measures,No,No information
+Vatican,01,Regular cautionary measures,No,No information
+Vanuatu,01,Regular cautionary measures,No,No information
+Venezuela,01,Regular cautionary measures,No,No information
+Zimbabwe,01,Regular cautionary measures,No,No information
+Zambia,01,Regular cautionary measures,No,No information
+Shanhav Beach,03,Avoid non-essential travel,Entire country,"Due to terrorist activity in the country, specifically radical Islamist organizations, there is a tangible threat to the security of Israeli citizens in Shanhav Beach."
+Tajikistan,04/01,High threat level (Level 4): Avoid travel within 30 kilometers of the common border between Tajikistan and Afghanistan. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,Region along the common border between Tajikistan and Afghanistan,"We recommend avoiding travel, at least 30 kilometers, to the area along the common border between Tajikistan and Afghanistan, due to a real concern that terrorist elements operating in Afghanistan will attempt to harm/kidnap tourists, including Israelis."
+Tuvalu,01,Regular cautionary measures,No,No information
+Togo,01/04,High threat level (Level 4) recommends avoiding travel: about 30 km from the border of Togo with Burkina Faso. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,Area along the border between Togo and Burkina Faso (See map),"Due to concerns about attacks by various terrorist organizations in northern Togo, it is recommended to avoid any travel to the border area with Burkina Faso. In this regard, maintain a distance of about 30 km from the border."
+Tonga,01,Regular cautionary measures,No,No information
+Taiwan,01,Regular cautionary measures,No,No information
+Tanzania,01,Regular cautionary measures,No,No information
+Trinidad and Tobago,01,Regular cautionary measures,No,No information
+Greece,01,Regular cautionary measures,No,"While there is no travel warning for this country in the context of terrorism, due to extreme weather events in the country, the Ministry of Foreign Affairs has published recommendations for Israelis planning to visit the country. Here is a link to the recommendation: https://www.gov.il/he/departments/publications/reports/greece240723"
+Japan,01,Regular cautionary measures,No,No information
+Jordan,04,Do not travel to this country,In case of stay, leave the country,Entire country,"Due to the fear that terrorist elements will attempt to harm Israelis residing in Jordan, against the background of the ""Iron Swords"" war, it is advisable to avoid traveling to this country and, in the case of a stay, leave the country."
+Kuwait,04,Avoid travel,Entire country,"Due to terrorist activity in the country, with an emphasis on radical Islamist organizations, there is a tangible threat to the security of Israeli citizens residing in Kuwait."
+Laos,01,Regular cautionary measures,No,No information
+Lebanon,04,Travel prohibition,Entire country,"Due to the presence of terrorist organizations operating in its territory (Hezbollah, Palestinian terror, and global Jihad), and deep public animosity towards Israel, there is a severe risk of terror to any Israeli visiting/staying in Lebanon. Moreover, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."
+Libya,04,Avoid travel,Entire country,"In this country, there has been a civil war for many years, alongside extensive terrorist activity by numerous terror organizations, some with a local agenda; terrorist attacks and violent actions are common in this country, and there is a severe risk to Israelis visiting Libya."
+Luxembourg,01,Regular cautionary measures,No,No information
+Latvia,01,Regular cautionary measures,No,No information
+Liberia,01,Regular cautionary measures,No,No information
+Lithuania,01,Regular cautionary measures,No,No information
+Liechtenstein,01,Regular cautionary measures,No,No information
+Lesotho,01,Regular cautionary measures,No,No information
+Mauritania,03,Avoid non-essential travel,Entire country,"Mauritania has various terrorist organizations' activities, including radical Islamist organizations, posing a threat to the security of Israelis visiting/staying in the country."
+Mauritius,01,Regular cautionary measures,No,No information
+Mali,04,Avoid travel,Entire country,"In the country, there is activity by several terrorist organizations, such as the ""Islamic State"" and Jama'at Nusrat al-Islam wal Muslimeen (JNIM) associated with al-Qaeda. Simultaneously, local agenda organizations, such as the MNLA, operate in the area. These organizations carry out attacks against various targets, and there is a severe risk to Israelis visiting Mali."
+Madagascar,01,Regular cautionary measures,No,No information
+Mozambique,04/01,High threat level (Level 4) recommends avoiding travel: Northern part of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of Mozambique.,Northern part of the country (See map),"Due to terrorist activity by extreme Islamic groups in the Cabo Delgado region in the northern part of the country, against government and civilian targets, there is a tangible risk to the lives of Israelis residing in the area."
+Moldova,01,Regular cautionary measures,No,No information
+Mongolia,01,Regular cautionary measures,No,No information
+Montenegro,01,Regular cautionary measures,No,No information
+Monaco,01,Regular cautionary measures,No,No information
+East Timor (Democratic Republic),01,Regular cautionary measures,No,No information
+Myanmar,01,Regular cautionary measures,No,No information
+Micronesia,01,Regular cautionary measures,No,No information
+Malawi,01,Regular cautionary measures,No,No information
+Malaysia,03,Avoid non-essential travel,Entire country,"Due to the presence of radical Islamic elements in parts of the country, along with deep animosity towards Israel from segments of the population, there is a risk to the security of Israelis visiting/staying in this country."
+Malta,01,Regular cautionary measures,No,No information
+Egypt,04,Do not travel to this country,In case of stay, leave the country,Entire country,"Due to the fear that terrorist elements will attempt to harm Israelis residing in Egypt, against the background of the ""Iron Swords"" war, it is advisable to avoid traveling to this country and, in the case of a stay, leave the country."
+Mexico,01,Regular cautionary measures,No,No information
+Morocco,03,Take enhanced cautionary measures,Entire country,"Due to the concern that terrorist elements will attempt to harm Israelis residing in Morocco, against the background of the ""Iron Swords"" war, it is advisable to avoid non-essential travel to this country."
+Nauru,01,Regular cautionary measures,No,No information
+Norway,01,Regular cautionary measures,No,No information
+Nigeria,02/04,High threat level (Level 4) recommends avoiding travel: Northern part of the country. Occasional threat (Level 2) recommends taking enhanced cautionary measures: Southern part of the country.,Entire country,"Due to continuous terrorist activity by the ""Boko Haram"" organization, with emphasis on the northern part of the country, there is a persistent potential threat throughout the country. It should be emphasized that a more severe threat exists in the northern part of the country."
+New Zealand,01,Regular cautionary measures,No,No information
+Niger,03,Avoid non-essential travel,Entire country,"Due to JNIM (Group for Support of Islam and Muslims) threats in the northern part of the country and terrorist activity by the ""Boko Haram"" organization in the south, there is a threat of kidnapping and attacks against local and foreign targets, including Israelis and Jews."
+Nicaragua,01,Regular cautionary measures,No,No information
+Namibia,01,Regular cautionary measures,No,No information
+Nepal,01,Regular cautionary measures,No,No information
+Sao Tome and Principe,01,Regular cautionary measures,No,No information
+Sudan,03,Avoid non-essential travel,Entire country,"Due to the ongoing terrorist threats in Sudan and deep animosity from the Muslim street towards Israel, there is a tangible and real risk to the security of Israeli citizens visiting/staying in the country."
+Swaziland,01,Regular cautionary measures,No,No information
+Somalia,04,Avoid travel,Entire country,"Due to persistent terrorist threats in Somalia and profound hostility from the Muslim street towards Israel, there is a concrete terrorist threat to Israelis visiting/staying in the country."
+Syria,04,Travel prohibition,Entire country,"Due to the consolidation of terrorist elements in the country, with an emphasis on Iran and Hezbollah, alongside the continued presence of global Jihad organizations, there is a severe and ongoing threat to the security of Israeli citizens visiting/staying in Syria. Furthermore, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."
+Suriname,01,Regular cautionary measures,No,No information
+Sierra Leone,01,Regular cautionary measures,No,No information
+China,01,Regular cautionary measures,No,No information
+Singapore,01,Regular cautionary measures,No,No information
+Egypt (Sinai Peninsula),04,Avoid non-essential travel,Sinai Peninsula,"Due to concerns that terrorist elements will attempt to harm Israelis residing in the Sinai Peninsula, against the background of the ""Iron Swords"" war, it is advisable to avoid travel to this region and, in the case of a stay, leave the area."
+Slovenia,01,Regular cautionary measures,No,"While there is no travel warning for this country in the context of terrorism, due to the floods in the country, the Ministry of Foreign Affairs has published recommendations for Israelis planning to visit the country. Here is a link to the recommendation: [link]"
+Slovakia,01,Regular cautionary measures,No,No information
+Samoa,01,Regular cautionary measures,No,No information
+San Marino,01,Regular cautionary measures,No,No information
+Senegal,01/03,Eastern part of the country: Moderate threat level (Level 3) recommends avoiding non-essential travel; Rest of Senegal: No travel warning (Level 1) recommends taking regular cautionary measures,"Eastern part of the country, see map",Western African terrorist organizations, including those from Western Africa and the Sahel, also operate in eastern Senegal. These organizations may carry out attacks or kidnappings against citizens from various countries, including Israelis in the region.
+Saint Vincent and the Grenadines,01,Regular cautionary measures,No,No information
+Saint Lucia,01,Regular cautionary measures,No,No information
+Saint Kitts and Nevis,01,Regular cautionary measures,No,No information
+Spain,01,Regular cautionary measures,No,No information
+Serbia,01,Regular cautionary measures,No,No information
+Sri Lanka,01,Regular cautionary measures,No,No information
+Oman,03,Avoid non-essential travel,Entire country,"Due to potential terrorist threats, there are risks to the security of Israeli citizens visiting/staying in Oman."
+Iraq,04,Travel prohibition,Entire country - including the Kurdish region,"Due to widespread terrorist activities of various terrorist organizations in the country, some of which have declared their intention to harm Israel, there is a real and ongoing risk to Israelis who visit/stay in the country - including the Kurdish region in northern Iraq. Moreover, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."
+Saudi Arabia,03,Travel prohibition,Entire country,"Due to extensive extremist terrorist infrastructure and deep public animosity towards Israel, there is a severe risk of terror to any Israeli visiting/staying in the country. Moreover, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."
+Palau,01,Regular cautionary measures,No,No information
+Poland,01,Regular cautionary measures,No,No information
+Portugal,01,Regular cautionary measures,No,No information
+Fiji,01,Regular cautionary measures,No,No information
+Philippines,04/01,High threat level (Level 4): Avoid travel to the region: Mindanao and the Sulu Archipelago - Southern part of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the Philippines.,"Entire Mindanao (Southern Philippines) and the Sulu Archipelago, see map","Due to the presence and activity of terrorist organizations in the Mindanao region and the Sulu Archipelago, there is a tangible risk to the security and well-being of Israelis visiting/staying in the area."
+Finland,01,Regular cautionary measures,No,No information
+Panama,01,Regular cautionary measures,No,No information
+Papua New Guinea,01,Regular cautionary measures,No,No information
+Pakistan,04,Avoid travel,Entire country,"Due to intensive presence and activity of terror groups and extreme Islamic elements throughout Pakistan, coupled with hostile sentiments towards Israel, there is a real risk to the security of Israelis visiting/staying in this country."
+Paraguay,01,Regular cautionary measures,No,No information
+Peru,01,Regular cautionary measures,No,No information
+North Macedonia,01,Regular cautionary measures,No,No information
+Chad,01/03,Moderate threat level (Level 3): Avoid non-essential travel: Southwestern part of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of Chad.,"Southwest Chad, see map","The terror organization ""Boko Haram"" carries out terror attacks in Chad, near its southwestern border with Nigeria, including the capital city N'Djamena and the Lake Chad area. Therefore, there is a security risk to Israelis visiting/staying in the western regions."
+Chile,01,Regular cautionary measures,No,No information
+Czech Republic,01,Regular cautionary measures,No,No information
+France,01,Regular cautionary measures,No,No information
+Chechnya (Russia),04,Avoid travel,Entire country,"Due to the presence of terror groups in Chechnya, there is a risk to the security and well-being of Israelis visiting/staying in the country."
+Cuba,01,Regular cautionary measures,No,No information
+Colombia,01,Regular cautionary measures,No,No information
+Kosovo,01,Regular cautionary measures,No,No information
+Costa Rica,01,Regular cautionary measures,No,No information
+Comoros (Comoros Islands),01,Regular cautionary measures,No,No information
+Congo (Democratic Republic),04/02,High threat level (Level 4) recommends avoiding travel: Eastern part of the country, Northern part of the country, and Kasai provinces in the south. Occasional threat (Level 2) recommends taking enhanced cautionary measures: Rest of Congo.","Northern provinces (North) Kivu, South (South) Kivu, Ituri, Haut Uele, Bas Uele, Tanganyika, and three Kasai provinces.","Since 2019, there has been an increase in terrorist activity by various organizations (including members of the ""Islamic State"") in several provinces in the east, south, and north of Congo. There is a risk to the security and well-being of Israelis visiting/staying in these areas."
+North Korea,01,Regular cautionary measures,No,No information
+North Korea,01,Regular cautionary measures,No,No information
+Kazakhstan,01,Regular cautionary measures,No,No information
+Qatar,03,Avoid non-essential travel,Entire country,"Due to the anti-Israel sentiment in Qatar and the presence of terror elements, there are risks to the security of Israelis visiting/staying in Qatar."
+Cape Verde,01,Regular cautionary measures,No,No information
+Kyrgyzstan,01,Regular cautionary measures,No,No information
+Kiribati,01,Regular cautionary measures,No,No information
+Cambodia,01,Regular cautionary measures,No,No information
+Cameroon,04/01,High threat level (Level 4): Avoid travel to the northern part of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,Northern part of the country (See map),"The terrorist organization "Boko Haram" carries out attacks against various targets in northwestern Cameroon, near the border with Nigeria. The main threat is kidnapping attacks alongside attacks on local and Western targets."
+Canada,01,Regular cautionary measures,No,No information
+Kenya,01/03,Medium threat level (Level 3) recommends avoiding non-essential travel to the north and east of the country. No travel warning (Level 1) recommends taking regular cautionary measures for the rest of the country.,North and east of Kenya (See map),"Islamic terrorist organizations (led by the Somali Al-Shabaab associated with Al-Qaeda) operate in Kenya in the border area with Somalia and the coastal strip, in the depth of the country, and in the Nairobi area. Therefore, there is a concern that Israelis may be a target for terrorist activity."
+Cyprus,01,Regular cautionary measures,No,"Cyprus has no travel warning in the context of terrorism; however, the northern part has a travel warning from the Ministry of Foreign Affairs, and it is recommended to update details for those planning to visit the northern part of Cyprus."
+Croatia,01,Regular cautionary measures,No,No information
+Rwanda,01,Regular cautionary measures,No,No information
+Romania,01,Regular cautionary measures,No,No information
+Russia,01/04,High threat level (Level 4): Do not go to the northern Caucasus region. No travel warning (Level 1) for the rest of the country.,"The republics of Adygea, Chechnya, Dagestan, Ingushetia, Kabardino-Balkaria, Kalmykia, Karachay-Cherkessia, North Ossetia-Alania, and the Krasnodar and Stavropol Territories,""Due to concerns that terrorist elements and Palestinian pro-Palestinian elements will try to harm Israelis residing in the northern Caucasus, especially against the background of the ""Iron Swords"" war, it is advisable to avoid traveling to this country, and in case of a stay, leave the country."
+Sweden,01,Regular cautionary measures,No,No information
+Switzerland,01,Regular cautionary measures,No,No information
+Thailand,01/04,High threat level (Level 4): Avoid travel to the southern part of the country (excluding the islands). No travel warning (Level 1) recommends taking regular cautionary measures for the rest of Thailand.,"Provinces of Yala, Songkhla, Pattani, Narathiwat, located in southern Thailand.","In southern Thailand, there is local terrorist activity, especially in the ""Deep South"" provinces, adjacent to Malaysia. The BRN organization, responsible for dozens of attacks annually, is at the forefront. Therefore, there is a risk to Israelis staying/visiting the provinces of Yala, Songkhla, Pattani, Narathiwat, located in southern Thailand."
+Tunisia,03/04,"High threat level (Level 4): Avoid travel to the western part of the country, the area near the borders with Algeria and Libya, and the southern part of the country. Medium threat level (Level 3): Avoid non-essential travel to the rest of the country.",Entire country,"Due to concerns about terrorist activity against tourists or symbols of authority in the country, it is recommended to take heightened caution when arriving in the country. Also, it is advisable to avoid traveling to the western part of the country and to areas near the borders with Algeria and Libya, given the terrorist activity in their territory."
+Turkey,04,Do not travel to this country,In case of stay, leave the country,Entire country,"Due to concerns that terrorist elements will try to harm Israelis residing in Turkey, it is advisable to avoid traveling to this country, and in case of a stay, leave the country."
+Turkmenistan,01,Regular cautionary measures,No,No information
+Yemen,04,Avoid travel,Entire country,"Due to the existence of terrorist infrastructure in the country (with an emphasis on the Houthis), there is a severe risk of terrorism against any Israeli citizens visiting/staying in Yemen. Furthermore, according to the ""Infiltration Law,"" Israeli residents are prohibited from visiting this country."

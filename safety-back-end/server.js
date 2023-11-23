@@ -1,10 +1,12 @@
-// server.js
 const express = require('express');
 const { connectToDatabase } = require('./db');
 const dataController = require('./dataController');
+const cors = require('cors'); 
 
 const app = express();
 const port = 3000;
+
+app.use(cors()); 
 
 // Use the routes defined in dataController.js
 app.use('/', dataController);

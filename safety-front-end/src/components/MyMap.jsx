@@ -17,19 +17,19 @@ const MyMap = () => {
   }, []);
 
   const countryStyle = {
-    fillColor: 'grey', // Set default color to grey
+    fillColor: 'grey', 
     fillOpacity: 1,
     color: 'black',
     weight: 2,
   };
 
   const onEachCountry = async (country, layer) => {
-    if (!country || !country.properties || !country.properties.ADMIN) {
+    if (!country || !country.properties || !country.properties.name) {
       console.warn('Invalid country data:', country);
       return;
     }
   
-    const countryName = country.properties.ADMIN;
+    const countryName = country.properties.name;
     console.log('Country Name:', countryName);
   
     try {

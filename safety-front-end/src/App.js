@@ -1,21 +1,8 @@
-import React, { useState } from 'react';
-import Map from './Map';
-import CountryDetails from './CountryDetails';
+import React from "react";
+import MyMap from "./components/MyMap";
 
-
-const App = () => {
-  const [selectedCountry, setSelectedCountry] = useState(null);
-
-  const handleCountryClick = (countryCode) => {
-    // Handle country click logic, set selectedCountry, etc.
-  };
-
-  return (
-    <div>
-      <Map data={yourData} onCountryClick={handleCountryClick} />
-      {selectedCountry && <CountryDetails country={selectedCountry} />}
-    </div>
-  );
-};
+function App() {
+  return <MyMap />;
+}
 
 export default App;

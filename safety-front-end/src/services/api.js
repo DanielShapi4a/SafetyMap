@@ -6,3 +6,9 @@ export const fetchData = async () => {
   const jsonData = await response.json();
   return jsonData;
 };
+
+export const fetchCountryData = async (countryName) => {
+  const response = await fetch(`${API_URL}/${countryName}`);
+  const countryData = await response.json();
+  return countryData;
+};

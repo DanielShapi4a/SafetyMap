@@ -1,12 +1,20 @@
 // MyMap.jsx
-import React, { useState, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { MapContainer, GeoJSON } from "react-leaflet";
 import mapData from "../countries.geo.json";
 import "leaflet/dist/leaflet.css";
 import { fetchCountryData, fetchData } from "../services/api";
 import { WARNING_LEVEL_COLORS } from "../utils/constants";
 
-const MyMap = ({ onCountryClick }) => {
+const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
+  const mapRef = useRef(null);
+  console.log("MyMap - mapCenter:", mapCenter);
+  console.log("MyMap - mapZoom:", mapZoom);
+
+  const handleMapMove = (e) => {
+    console.log("MyMap - Map moved:", e.target.getCenter(), e.target.getZoom());
+  };
+
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -80,6 +88,8 @@ const MyMap = ({ onCountryClick }) => {
     }
   };
 
+
+
   const getWarningLevelColor = (warningLevel) => {
     if (typeof warningLevel === "string" && warningLevel.includes("/")) {
       const levels = warningLevel.split("/").map(Number);
@@ -144,8 +154,11 @@ const MyMap = ({ onCountryClick }) => {
       >
         <MapContainer
           style={{ height: "100%", width: "100%" }}
-          center={[30, 10]}
-          zoom={2}
+          center={mapCenter}
+          zoom={mapZoom}
+          whenReady={(map) => {
+            map.target.addEventListener("moveend", handleMapMove);
+          }}
         >
           <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
         </MapContainer>

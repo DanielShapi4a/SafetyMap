@@ -1,12 +1,11 @@
-/* SearchBar.css */
-
 /* Container style */
 .search-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Adjust to a column layout */
   align-items: center;
   margin: 0;
   background-color: #f0f8ff;
+  position: relative; /* Set position relative for absolute positioning */
 }
 
 /* Input style */
@@ -35,4 +34,36 @@
 /* Button hover effect */
 .search-button:hover {
   background-color: #0056b3;
+}
+
+/* Suggestions List */
+.suggestions-list {
+  position: absolute;
+  top: 100%; /* Position right under the input with no gap */
+  left: 39.3%;
+  width: 177px; /* Same width as the search box minus border */
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0 0 4px 4px; /* Rounded corners at the bottom */
+  z-index: 1;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -1px; /* Remove the gap between search bar and suggestions */
+  display: none;
+}
+
+/* Show suggestions when there are suggestions */
+.search-container:hover .suggestions-list {
+  display: block;
+}
+
+/* Style for individual suggestion items */
+.suggestions-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Style for individual suggestion items on hover */
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
 }

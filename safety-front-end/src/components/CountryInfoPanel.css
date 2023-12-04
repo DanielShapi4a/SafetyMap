@@ -1,12 +1,24 @@
 /* CountryInfoPanel.css */
 .country-info-panel {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  
-  .country-info-panel.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px 0 0 0;
+  font-family: Arial, sans-serif;
+}
+
+.country-info-panel h2 {
+  font-size: 1.8em;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.country-info-panel p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.country-info-panel p:first-child {
+  font-weight: bold;
+}

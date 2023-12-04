@@ -1,4 +1,5 @@
 // MyMap.jsx
+
 import React, { useRef, useEffect, useState } from "react";
 import { MapContainer, GeoJSON } from "react-leaflet";
 import mapData from "../countries.geo.json";
@@ -14,6 +15,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
   const handleMapMove = (e) => {
     console.log("MyMap - Map moved:", e.target.getCenter(), e.target.getZoom());
   };
+
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -34,11 +36,13 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
 
   const onEachCountry = async (country, layer) => {
     if (!country || !country.properties || !country.properties.name) {
+
       console.warn("Invalid country data:", country);
       return;
     }
 
     const countryName = country.properties.name;
+
 
     try {
       const countryData = await fetchCountryData(countryName);
@@ -56,8 +60,10 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
           onCountryClick(countryData);
         },
         mouseover: () => {
+          // Add the existing mouseover effect
           layer.setStyle({
             weight: 3,
+
             color: "grey",
             fillOpacity: 0.7,
           });
@@ -78,6 +84,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             fillColor: countryColor,
             fillOpacity: 1,
             weight: 2,
+
             color: "black",
           });
           layer.closePopup();
@@ -87,6 +94,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
       console.error("Error fetching country data:", error);
     }
   };
+
 
 
 
@@ -129,8 +137,24 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
       "#" + interpolatedValue.toString(16).padStart(6, "0");
     return interpolatedColor;
   };
+  
+  const interpolateColor = (color1, color2, percentage) => {
+    const color1Value = parseInt(color1.slice(1), 16);
+    const color2Value = parseInt(color2.slice(1), 16);
+  
+    const interpolatedValue = Math.round(color1Value + (color2Value - color1Value) * percentage);
+    const interpolatedColor = '#' + interpolatedValue.toString(16).padStart(6, '0');
+    return interpolatedColor;
+  };
+
+  
+  
+  
+  
+  
 
   return (
+
     <div
       style={{
         backgroundColor: "#f0f8ff",

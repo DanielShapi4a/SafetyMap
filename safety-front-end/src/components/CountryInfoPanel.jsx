@@ -8,7 +8,7 @@ const CountryInfoPanel = ({ countryData }) => {
   }
 
   return (
-    <div className="country-info-panel">
+    <div className="country-info-panel" style={{color:"black"}}>
       <h2>{countryData.Country}</h2>
       <p>Warning Level: {countryData["warning level"]}</p>
       <p>Recommendation: {countryData.recommendation}</p>

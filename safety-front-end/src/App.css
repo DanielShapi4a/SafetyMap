@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgb(92, 90, 93); 
+  font-family: 'Arial', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.Main_Page {
+  background: rgb(63, 63, 61);
+  border-radius: 30px;
+}
+
+.gradient__text {
+  background: rgb(97, 0, 253); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+@media (max-width: 768px) {
+  .FirstRow,
+  .SecondRow {
+    flex-direction: column; 
+  }
+
+  .FirstRow img,
+  .SecondRow img {
+    max-width: 100%; 
+    width: auto; 
+    max-height: 250px; 
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  .FirstRow img,
+  .SecondRow img {
+    max-height: 200px; 
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+
+@media (max-width: 768px) {
+  .FirstRow img,
+  .SecondRow img {
+    flex: 0 0 100%; 
+  }
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding{
+    padding: 4rem;
+  }
+  .section__margin{
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin{
+    margin: 4rem 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .section__padding {
+    padding: 4rem 3rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 2rem;
   }
 }

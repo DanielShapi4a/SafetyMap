@@ -1,22 +1,25 @@
 /* Container style */
 .search-container {
   display: flex;
-  flex-direction: column; /* Adjust to a column layout */
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  margin: 0;
-  background-color: #f0f8ff;
-  position: relative; /* Set position relative for absolute positioning */
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  background-color: #0000; 
 }
 
 /* Input style */
 .search-input {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 8px;
-  font-size: 16px;
+  font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 200px;
   margin-right: 10px;
-  outline: none; /* Remove default focus outline */
+  outline: none; 
 }
 
 /* Button style */
@@ -28,7 +31,7 @@
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  outline: none; /* Remove default focus outline */
+  outline: none;
 }
 
 /* Button hover effect */
@@ -39,17 +42,19 @@
 /* Suggestions List */
 .suggestions-list {
   position: absolute;
-  top: 100%; /* Position right under the input with no gap */
-  left: 39.3%;
-  width: 177px; /* Same width as the search box minus border */
+  top: 100%; 
+  width: 300px; 
   overflow-y: auto;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 0 0 4px 4px; /* Rounded corners at the bottom */
+  border-radius: 0 0 4px 4px;
   z-index: 1;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: -1px; /* Remove the gap between search bar and suggestions */
+  margin-top: -1px; 
   display: none;
+  color: black;
+  cursor: pointer;
+  z-index: 999;
 }
 
 /* Show suggestions when there are suggestions */
@@ -61,9 +66,12 @@
 .suggestions-list li {
   padding: 8px;
   cursor: pointer;
+  display: block; 
+  margin-bottom: 4px;
 }
 
 /* Style for individual suggestion items on hover */
 .suggestions-list li:hover {
   background-color: #f0f0f0;
 }
+

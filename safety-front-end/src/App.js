@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import MyMap from "./components/MyMap";
 import CountryInfoPanel from "./components/CountryInfoPanel";
 import SearchBar from "./components/SearchBar";
-import { fetchCountryData } from "./services/api"; // Import the fetchCountryData function
+import { fetchCountryData } from "./services/api"; 
+
+import "./App.css";
 
 const App = () => {
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -42,8 +44,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <SearchBar onSearch={handleSearch} zoomToCountry={zoomToCountry} />
+    <div className="Main_Page" style={{paddingTop:'1px'}}>
+      <SearchBar onSearch={handleSearch} zoomToCountry={zoomToCountry} style={{padding:'20px'}} />
       <MyMap onCountryClick={handleCountryClick} mapCenter={mapCenter} mapZoom={mapZoom} />
       <CountryInfoPanel countryData={selectedCountry} />
     </div>

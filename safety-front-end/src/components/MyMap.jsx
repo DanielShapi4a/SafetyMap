@@ -6,32 +6,30 @@ import mapData from "../countries.geo.json";
 import "leaflet/dist/leaflet.css";
 import { fetchCountryData, fetchData } from "../services/api";
 import { WARNING_LEVEL_COLORS } from "../utils/constants";
+import "./MyMap.css";
+import MovingComponent from 'react-moving-text'
+import TechnologiesSection from "./TechnolegiesSection";
 
 const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
-  const mapRef = useRef(null);
-  console.log("MyMap - mapCenter:", mapCenter);
-  console.log("MyMap - mapZoom:", mapZoom);
-
-  const handleMapMove = (e) => {
-    console.log("MyMap - Map moved:", e.target.getCenter(), e.target.getZoom());
-  };
-
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const mapRef = useRef(null);
 
+  // Use effect for fetching data
   useEffect(() => {
-    const getData = async () => {
+    const fetchDataAndCountryData = async () => {
       try {
         const fetchedData = await fetchData();
         setData(fetchedData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
       } finally {
-        // Set loading to false once data is fetched (success or error)
         setLoading(false);
       }
     };
 
-    getData();
+    fetchDataAndCountryData();
   }, []);
 
   const onEachCountry = async (country, layer) => {
@@ -95,9 +93,6 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
     }
   };
 
-
-
-
   const getWarningLevelColor = (warningLevel) => {
     if (typeof warningLevel === "string" && warningLevel.includes("/")) {
       const levels = warningLevel.split("/").map(Number);
@@ -138,54 +133,53 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
     return interpolatedColor;
   };
   
-  const interpolateColor = (color1, color2, percentage) => {
-    const color1Value = parseInt(color1.slice(1), 16);
-    const color2Value = parseInt(color2.slice(1), 16);
-  
-    const interpolatedValue = Math.round(color1Value + (color2Value - color1Value) * percentage);
-    const interpolatedColor = '#' + interpolatedValue.toString(16).padStart(6, '0');
-    return interpolatedColor;
-  };
-
-  
-  
-  
-  
-  
-
   return (
-
-    <div
-      style={{
-        backgroundColor: "#f0f8ff",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      <h1 style={{ textAlign: "center", margin: "20px 0", color: "#333" }}>
-        Safety Map
-      </h1>
-      <div
-        style={{
-          width: "80%",
-          height: "80vh",
-          boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-          borderRadius: "10px",
-          overflow: "hidden",
-        }}
-      >
-        <MapContainer
-          style={{ height: "100%", width: "100%" }}
-          center={mapCenter}
-          zoom={mapZoom}
-          whenReady={(map) => {
-            map.target.addEventListener("moveend", handleMapMove);
-          }}
-        >
-          <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
-        </MapContainer>
+    <div className="MapContent">
+      <div className="Left-Right-Sides">
+        <div className="Main-Text">
+          <div style={{ height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center',color: 'blueviolet', fontWeight: 'bold', fontSize: '40px' }}>
+            <MovingComponent 
+              type="typewriter"
+              dataText={[
+                'Welcome to Safety Map',
+                'Search for safety information in any country',
+                'Stay informed with the latest updates on safety levels'
+                
+            ]} />
+          </div>
+          <p style={{fontSize:'18px', marginTop:'30px'}}>
+            Safety Map is a project dedicated to visualizing the safety status of Jewish communities across the globe.
+            Our goal is to provide a comprehensive overview of potential risks and safety levels in different countries.
+          </p>
+          <h3>Project Objective</h3>
+          <p>
+            The primary objective of this project is to empower individuals with information about the safety conditions
+            for Jewish communities worldwide. We aim to foster awareness and encourage informed decision-making.
+          </p>
+          <h3>How to Use</h3>
+          <p>
+            Explore the map to view safety levels in various countries. Click on a country to access detailed information,
+            including the current warning level. Utilize the search bar to quickly find information about a specific country.
+          </p>
+          <h3>Data Source</h3>
+          <p>
+            Our data is sourced from reliable and up-to-date channels, ensuring accurate and relevant information for users.
+          </p>
+          <div className="Technolegies" style={{flexDirection:'column', margin:'20px'}}>
+            <span>Technolegies used:</span>
+            <TechnologiesSection/>
+          </div>
+        </div>
+        <div className="MapContainerWrapper" style={{ margin: "30px" }}>
+          <MapContainer
+            ref={mapRef}
+            center={mapCenter}
+            zoom={mapZoom}
+            style={{ height: "100%", width: "100%" }}
+          >
+            <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
+          </MapContainer>
+        </div>
       </div>
     </div>
   );

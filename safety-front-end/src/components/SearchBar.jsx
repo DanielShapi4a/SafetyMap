@@ -41,7 +41,7 @@ const SearchBar = ({ onSearch, zoomToCountry }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="search-container">
+    <form onSubmit={handleSubmit} className="search-container" style={{margin:'30px'}}>
       <input
         type="text"
         placeholder="Search..."

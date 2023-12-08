@@ -1,6 +1,51 @@
-body {
-  background-color: rgb(178, 210, 222);
+.MapContent {
+  text-align: center;
+  margin: 20px 0;
+  color: white; 
+  background-color: #222; 
 }
-.leaflet-container {
-  background-color: rgb(178, 210, 222);
+
+.Left-Right-Sides {
+  display: flex;
+  justify-content: center;
+}
+
+.MapContainerWrapper {
+  width: 70%;
+  height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px; 
+}
+
+
+/* Style for the Main-Text container */
+.Main-Text {
+  width: 30%;
+  padding: 20px;
+  color: white; 
+  background-color: #222; 
+  border-radius: 10px;
+}
+
+/* Style for the Main-Text headings */
+.Main-Text h2  {
+  color: blueviolet; 
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Main-Text h3 {
+  font-size: 28px;
+  color: blueviolet; 
+  margin-top: 40px; 
+}
+
+/* Style for the Main-Text paragraphs */
+.Main-Text p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ddd; 
 }

@@ -5,7 +5,9 @@ export const WARNING_LEVEL_COLORS = {
     2: 'yellow',
     3: 'orange',
     4: 'red',
-    default: 'gray',
+    default: 'grey',
   };
 
   export const DEFAULT_GRADIENT = 'grey';
+
+  export const DOUBLE_WARNING_LEVEL = "blueviolet"

@@ -5,10 +5,11 @@ import { MapContainer, GeoJSON } from "react-leaflet";
 import mapData from "../countries.geo.json";
 import "leaflet/dist/leaflet.css";
 import { fetchCountryData, fetchData } from "../services/api";
-import { WARNING_LEVEL_COLORS } from "../utils/constants";
+import { WARNING_LEVEL_COLORS, DOUBLE_WARNING_LEVEL } from "../utils/constants";
 import "./MyMap.css";
 import MovingComponent from 'react-moving-text'
 import TechnologiesSection from "./TechnolegiesSection";
+import { legendData } from "../utils/constants";
 
 const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
 
@@ -34,18 +35,15 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
 
   const onEachCountry = async (country, layer) => {
     if (!country || !country.properties || !country.properties.name) {
-
       console.warn("Invalid country data:", country);
       return;
     }
-
     const countryName = country.properties.name;
-
-
+    console.log(countryName);
     try {
       const countryData = await fetchCountryData(countryName);
 
-      const countryColor = getWarningLevelColor(countryData["warning level"]);
+      const countryColor = getWarningLevelColor(countryData["Warning Level"]);
       layer.setStyle({
         fillColor: countryColor,
         fillOpacity: 1,
@@ -69,7 +67,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
           setTimeout(() => {
             layer
               .bindPopup(
-                `${countryName}: Warning Level ${countryData["warning level"]}`,
+                `${countryName}: Warning Level ${countryData["Warning Level"]}`,
                 {
                   closeOnClick: false,
                 }
@@ -82,7 +80,6 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             fillColor: countryColor,
             fillOpacity: 1,
             weight: 2,
-
             color: "black",
           });
           layer.closePopup();
@@ -94,44 +91,15 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
   };
 
   const getWarningLevelColor = (warningLevel) => {
-    if (typeof warningLevel === "string" && warningLevel.includes("/")) {
-      const levels = warningLevel.split("/").map(Number);
-      const lowerLevelColor = WARNING_LEVEL_COLORS[levels[0]] || "grey";
-      const higherLevelColor = WARNING_LEVEL_COLORS[levels[1]] || "grey";
-
-      if (Math.abs(levels[1] - levels[0]) >= 2) {
-        return {
-          fill: lowerLevelColor,
-          border: higherLevelColor,
-        };
-      } else {
-        const percentage = (levels[0] + levels[1]) / 2;
-        const interpolatedColor = interpolateColor(
-          lowerLevelColor,
-          higherLevelColor,
-          percentage
-        );
-        return {
-          fill: interpolatedColor,
-          border: higherLevelColor,
-        };
-      }
+    console.log("Current warning level:", warningLevel);    
+    if (typeof warningLevel === "string" && (warningLevel.includes("/") || warningLevel.includes("\\"))) {
+      // Handle countries with double warning levels
+      return DOUBLE_WARNING_LEVEL || "grey";
     }
-
     return WARNING_LEVEL_COLORS[warningLevel] || "grey";
   };
+  
 
-  const interpolateColor = (color1, color2, percentage) => {
-    const color1Value = parseInt(color1.slice(1), 16);
-    const color2Value = parseInt(color2.slice(1), 16);
-
-    const interpolatedValue = Math.round(
-      color1Value + (color2Value - color1Value) * percentage
-    );
-    const interpolatedColor =
-      "#" + interpolatedValue.toString(16).padStart(6, "0");
-    return interpolatedColor;
-  };
   
   return (
     <div className="MapContent">
@@ -178,6 +146,14 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             style={{ height: "100%", width: "100%" }}
           >
             <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
+            <div className="legend" style={{flexDirection:"row"}}>
+              {legendData.map(({ level, color, label }) => (
+                <div key={level} className="legend-item">
+                  <div className="legend-color" style={{ backgroundColor: color }}></div>
+                  <div className="legend-label">{`${level}. ${label}`}</div>
+                </div>
+              ))}
+            </div>
           </MapContainer>
         </div>
       </div>

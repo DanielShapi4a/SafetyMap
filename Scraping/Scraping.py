@@ -86,4 +86,4 @@ for skip_value in range(0, 20, 10):
         driver.quit()
 
 # Save the DataFrame to a CSV file in UTF-8 format
-result_df.to_csv("scraped_data.csv", index=False, encoding="utf-8")
+result_df.to_csv("1234.csv", index=False, encoding="utf-8")

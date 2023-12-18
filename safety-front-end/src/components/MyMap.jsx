@@ -9,6 +9,7 @@ import { WARNING_LEVEL_COLORS, DOUBLE_WARNING_LEVEL } from "../utils/constants";
 import "./MyMap.css";
 import MovingComponent from 'react-moving-text'
 import TechnologiesSection from "./TechnolegiesSection";
+import { legendData } from "../utils/constants";
 
 const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
 
@@ -38,10 +39,11 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
       return;
     }
     const countryName = country.properties.name;
+    console.log(countryName);
     try {
       const countryData = await fetchCountryData(countryName);
 
-      const countryColor = getWarningLevelColor(countryData["warning level"]);
+      const countryColor = getWarningLevelColor(countryData["Warning Level"]);
       layer.setStyle({
         fillColor: countryColor,
         fillOpacity: 1,
@@ -65,7 +67,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
           setTimeout(() => {
             layer
               .bindPopup(
-                `${countryName}: Warning Level ${countryData["warning level"]}`,
+                `${countryName}: Warning Level ${countryData["Warning Level"]}`,
                 {
                   closeOnClick: false,
                 }
@@ -89,13 +91,11 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
   };
 
   const getWarningLevelColor = (warningLevel) => {
-    console.log("Current warning level:", warningLevel);
-  
+    console.log("Current warning level:", warningLevel);    
     if (typeof warningLevel === "string" && (warningLevel.includes("/") || warningLevel.includes("\\"))) {
       // Handle countries with double warning levels
       return DOUBLE_WARNING_LEVEL || "grey";
     }
-  
     return WARNING_LEVEL_COLORS[warningLevel] || "grey";
   };
   
@@ -146,6 +146,14 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             style={{ height: "100%", width: "100%" }}
           >
             <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
+            <div className="legend" style={{flexDirection:"row"}}>
+              {legendData.map(({ level, color, label }) => (
+                <div key={level} className="legend-item">
+                  <div className="legend-color" style={{ backgroundColor: color }}></div>
+                  <div className="legend-label">{`${level}. ${label}`}</div>
+                </div>
+              ))}
+            </div>
           </MapContainer>
         </div>
       </div>

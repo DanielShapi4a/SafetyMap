@@ -10,10 +10,10 @@ const CountryInfoPanel = ({ countryData }) => {
   return (
     <div className="country-info-panel">
       <h2>{countryData.Country}</h2>
-      <p>Warning Level: {countryData["warning level"]}</p>
-      <p>Recommendation: {countryData.recommendation}</p>
-      <p>Threatened Area: {countryData["the threatened area"]}</p>
-      <p>Detail: {countryData.detail}</p>
+      <p>Warning Level: {countryData["Warning Level"]}</p>
+      <p>Recommendation: {countryData.Recommendation}</p>
+      <p>Threatened Area: {countryData["The Threatened Area"]}</p>
+      <p>Detail: {countryData.Detail}</p>
     </div>
   );
 };

@@ -81,7 +81,9 @@
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^13.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

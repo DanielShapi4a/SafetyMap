@@ -19,4 +19,5 @@ export const legendData = [
     { level: 3, color: WARNING_LEVEL_COLORS[3], label: "Danger" },
     { level: 4, color: WARNING_LEVEL_COLORS[4], label: "Immediate Danger" },
     { level: 5, color: DOUBLE_WARNING_LEVEL, label: 'Multiple Warning Levels' },
+    { level: 6, color: '#5a5a5a', label: 'No Information Found' },
   ];

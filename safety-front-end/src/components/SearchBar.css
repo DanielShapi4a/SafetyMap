@@ -8,6 +8,7 @@
   margin-bottom: 100px;
   position: relative;
   background-color: #0000; 
+  z-index: 1001;
 }
 
 /* Input style */
@@ -60,6 +61,7 @@
 /* Show suggestions when there are suggestions */
 .search-container:hover .suggestions-list {
   display: block;
+  border-radius: 5px;
 }
 
 /* Style for individual suggestion items */
@@ -67,11 +69,13 @@
   padding: 8px;
   cursor: pointer;
   display: block; 
-  margin-bottom: 4px;
+  padding: 4px;
+  margin-left: 10px;
 }
 
 /* Style for individual suggestion items on hover */
 .suggestions-list li:hover {
-  background-color: #f0f0f0;
+  background-color: #545252;
+  color: black;
 }
 

@@ -1,8 +1,9 @@
 // db.js
+require("dotenv").config();
 const { MongoClient } = require('mongodb');
-
+console.log(process.env.USER_NAME, process.env.PASSWORD);
 const uri =
-  'mongodb+srv://danielshapira3:Data1234@cluster0.xqlbyho.mongodb.net/safety-info';
+  `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.xqlbyho.mongodb.net/safety-info`;
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 

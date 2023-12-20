@@ -1,7 +1,6 @@
 // src/services/api.js
-require("dotenv").config();
 
-const API_URL = process.env.BASE_URL || 'http://localhost:3000/api/data';
+const API_URL = 'https://safety-map-3kvm.onrender.com';
 
 export const fetchData = async () => {
   const response = await fetch(API_URL);

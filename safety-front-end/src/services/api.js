@@ -1,5 +1,7 @@
 // src/services/api.js
-const API_URL = 'http://localhost:3000/api/data';
+require("dotenv").config();
+
+const API_URL = process.env.BASE_URL || 'http://localhost:3000/api/data';
 
 export const fetchData = async () => {
   const response = await fetch(API_URL);

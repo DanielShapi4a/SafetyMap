@@ -1,6 +1,6 @@
 // src/services/api.js
 
-const API_URL = 'https://safety-map-3kvm.onrender.com';
+const API_URL = 'https://safety-map-3kvm.onrender.com/api/data';
 
 export const fetchData = async () => {
   const response = await fetch(API_URL);

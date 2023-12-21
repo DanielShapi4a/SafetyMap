@@ -16,7 +16,7 @@ Safety Map is a web-based project developed with the MERN stack (MongoDB, Expres
 4. Create a pull request. 🔄
 
 ## Usage
-1. Access the deployed website [https://safetymap.onrender.com/](#). 🌐
+1. Access the deployed website https://safetymap.onrender.com/. 🌐
 2. Explore the map and country-specific information. 🌍
 3. Provide feedback and contribute to project enhancements. 💬
 

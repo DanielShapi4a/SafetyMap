@@ -1,7 +1,6 @@
 // db.js
 require("dotenv").config();
 const { MongoClient } = require('mongodb');
-console.log(process.env.USER_NAME, process.env.PASSWORD);
 const uri =
   `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@cluster0.xqlbyho.mongodb.net/safety-info`;
 

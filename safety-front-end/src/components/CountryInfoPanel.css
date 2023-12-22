@@ -25,3 +25,23 @@
   font-weight: bold;
   font-size: 1.2em;
 }
+
+@media only screen and (max-width: 768px) {
+  .country-info-panel {
+    padding: 10px; 
+    margin: 10px 0; 
+  }
+
+  .country-info-panel h2 {
+    font-size: 1.8em; 
+    margin-bottom: 12px; 
+  }
+
+  .country-info-panel p {
+    font-size: 18px; 
+  }
+
+  .country-info-panel p:first-child {
+    font-size: 1em; 
+  }
+}

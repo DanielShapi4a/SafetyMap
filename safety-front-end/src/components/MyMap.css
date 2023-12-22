@@ -1,13 +1,19 @@
 .MapContent {
   text-align: center;
   margin: 20px 0;
-  color: white; 
-  background-color: #222; 
+  color: white;
+  background-color: #222;
 }
 
 .Left-Right-Sides {
   display: flex;
   justify-content: center;
+
+  /* Add media query for transitioning to column layout on smaller screens */
+  @media only screen and (max-width: 1248px) {
+    flex-direction: column;
+    align-items: center; /* Center items horizontally in column layout */
+  }
 }
 
 .MapContainerWrapper {
@@ -16,30 +22,60 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-  margin-right: 20px; 
+  margin-right: 20px;
+
+  /* Center .MapContainerWrapper within its parent using flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Center .MapContainer within .MapContainerWrapper */
+  text-align: center;
+
+  /* Center .legend within .MapContainerWrapper */
+  .legend {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-
-/* Style for the Main-Text container */
 .Main-Text {
-  width: 30%;
+  width: 100%; /* Change width to 100% for smaller screens */
   padding: 20px;
-  color: white; 
-  background-color: #222; 
+  color: white;
+  background-color: #222;
   border-radius: 10px;
+
+  @media only screen and (min-width: 1248px) {
+    width: 30%; /* Change width back to 30% for larger screens */
+  }
+}
+
+.Secondary-Text-Area {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}
+
+/* Add media query for transitioning to column layout on smaller screens */
+@media only screen and (max-width: 768px) {
+  .Main-Text,
+  .MapContainerWrapper {
+    width: 100%;
+    margin-right: 0; /* Remove margin for full width */
+  }
 }
 
 /* Style for the Main-Text headings */
-.Main-Text h2  {
-  color: blueviolet; 
+.Main-Text h2 {
+  color: blueviolet;
   font-weight: bold;
   font-size: 40px;
 }
 
 .Main-Text h3 {
   font-size: 28px;
-  color: blueviolet; 
-  margin-top: 40px; 
+  color: blueviolet;
+  margin-top: 40px;
 }
 
 /* Style for the Main-Text paragraphs */
@@ -47,7 +83,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
-  color: #ddd; 
+  color: #ddd;
 }
 
 .legend {
@@ -63,6 +99,31 @@
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .legend {
+    flex-direction: column; /* Display items in a column */
+    width: auto;
+  }
+
+  .legend-item {
+    width: auto; /* Allow items to take their own width */
+    margin-bottom: 5px; /* Add some space between items for better readability */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .legend {
+    flex-direction: column; /* Display items in a column */
+    align-items: flex-start; /* Align items to the start of the container */
+    margin-left: 10px; /* Add margin to the left side of the legend */
+  }
+
+  .legend-item {
+    width: auto; /* Allow items to take their own width */
+    margin-bottom: 5px; /* Add some space between items for better readability */
+  }
+}
+
 .legend-item {
   display: flex;
   align-items: center;
@@ -74,4 +135,3 @@
   height: 20px;
   margin-right: 5px;
 }
-

@@ -104,8 +104,8 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
   return (
     <div className="MapContent">
       <div className="Left-Right-Sides">
-        <div className="Main-Text">
-          <div style={{ height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center',color: 'blueviolet', fontWeight: 'bold', fontSize: '40px' }}>
+        <div className="Main-Text" >
+          <div style={{   alignItems: 'center', justifyContent: 'center',color: 'blueviolet', fontWeight: 'bold', fontSize: '30px' }}>
             <MovingComponent 
               type="typewriter"
               dataText={[
@@ -115,27 +115,29 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
                 
             ]} />
           </div>
-          <p style={{fontSize:'18px', marginTop:'30px'}}>
-            Safety Map is a project dedicated to visualizing the safety status of Jewish communities across the globe.
-            Our goal is to provide a comprehensive overview of potential risks and safety levels in different countries.
-          </p>
-          <h3>Project Objective</h3>
-          <p>
-            The primary objective of this project is to empower individuals with information about the safety conditions
-            for Jewish communities worldwide. We aim to foster awareness and encourage informed decision-making.
-          </p>
-          <h3>How to Use</h3>
-          <p>
-            Explore the map to view safety levels in various countries. Click on a country to access detailed information,
-            including the current warning level. Utilize the search bar to quickly find information about a specific country.
-          </p>
-          <h3>Data Source</h3>
-          <p>
-            Our data is sourced from reliable and up-to-date channels, ensuring accurate and relevant information for users.
-          </p>
-          <div className="Technolegies" style={{flexDirection:'column', margin:'20px'}}>
-            <span>Technolegies used:</span>
-            <TechnologiesSection/>
+          <div className="Secondary-Text-Area">
+            <p style={{fontSize:'18px', marginTop:'30px'}}>
+              Safety Map is a project dedicated to visualizing the safety status of Jewish communities across the globe.
+              Our goal is to provide a comprehensive overview of potential risks and safety levels in different countries.
+            </p>
+            <h3>Project Objective</h3>
+            <p>
+              The primary objective of this project is to empower individuals with information about the safety conditions
+              for Jewish communities worldwide. We aim to foster awareness and encourage informed decision-making.
+            </p>
+            <h3>How to Use</h3>
+            <p>
+              Explore the map to view safety levels in various countries. Click on a country to access detailed information,
+              including the current warning level. Utilize the search bar to quickly find information about a specific country.
+            </p>
+            <h3>Data Source</h3>
+            <p>
+              Our data is sourced from reliable and up-to-date channels, ensuring accurate and relevant information for users.
+            </p>
+            <div className="Technolegies" style={{flexDirection:'column', margin:'20px'}}>
+              <span>Technolegies used:</span>
+              <TechnologiesSection/>
+            </div>
           </div>
         </div>
         <div className="MapContainerWrapper" style={{ margin: "30px" }}>

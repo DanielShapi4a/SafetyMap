@@ -135,7 +135,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
               Our data is sourced from reliable and up-to-date channels, ensuring accurate and relevant information for users.
             </p>
             <div className="Technolegies" style={{flexDirection:'column', margin:'20px'}}>
-              <span>Technolegies used:</span>
+              <span>Technologies used:</span>
               <TechnologiesSection/>
               <div style={{marginTop:'40px'}}>Last Update: 28/12/2023</div>
             </div>

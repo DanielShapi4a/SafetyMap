@@ -8,7 +8,8 @@
 .Left-Right-Sides {
   display: flex;
   justify-content: center;
-
+  align-content: center;
+  align-items: center;
   /* Add media query for transitioning to column layout on smaller screens */
   @media only screen and (max-width: 1248px) {
     flex-direction: column;
@@ -22,21 +23,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-  margin-right: 20px;
 
   /* Center .MapContainerWrapper within its parent using flexbox */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Center .MapContainer within .MapContainerWrapper */
-  text-align: center;
-
-  /* Center .legend within .MapContainerWrapper */
-  .legend {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Main-Text {
@@ -134,7 +124,7 @@
 
   .legend-item {
     width: auto; /* Allow items to take their own width */
-    margin-bottom: 5px;
+    margin: 5px;
     font-size: 6px;
      /* Add some space between items for better readability */
   }

@@ -140,6 +140,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             </div>
           </div>
         </div>
+        <span>Last Update: 28/12/2023</span>
         <div className="MapContainerWrapper" style={{ margin: "30px" }}>
           <MapContainer
             ref={mapRef}
@@ -148,7 +149,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             style={{ height: "100%", width: "100%" }}
           >
             <GeoJSON data={mapData.features} onEachFeature={onEachCountry} />
-            <div className="legend" style={{flexDirection:"row"}}>
+            <div className="legend" >
               {legendData.map(({ level, color, label }) => (
                 <div key={level} className="legend-item">
                   <div className="legend-color" style={{ backgroundColor: color }}></div>

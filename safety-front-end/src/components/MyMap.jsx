@@ -137,7 +137,7 @@ const MyMap = ({ onCountryClick, mapCenter, mapZoom }) => {
             <div className="Technolegies" style={{flexDirection:'column', margin:'20px'}}>
               <span>Technologies used:</span>
               <TechnologiesSection/>
-              <div style={{marginTop:'40px'}}>Last Update: 28/12/2023</div>
+              <div style={{marginTop:'40px'}}>Last Update: 29/3/2024</div>
             </div>
           </div>
         </div>

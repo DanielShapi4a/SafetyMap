@@ -24,4 +24,7 @@ Safety Map is a web-based project developed with the MERN stack (MongoDB, Expres
 Contributors are welcome to join the project and contribute to the safety and well-being of Israelis worldwide. 🤝
 
 ## Disclaimer
-The information provided on this platform is based on the latest available data from governmental sources and the Ministry of Security, accurate as of December 19, 2023. ⚠️
+The information provided on this platform is based on the latest available data from governmental sources and the Ministry of Security, accurate as of March 29, 2024. ⚠️
+
+![image](https://github.com/DanielShapi4a/SafetyMap/assets/116350669/9a1c3a22-1c34-4167-b07c-3b7bb8a4ae3c)
+
